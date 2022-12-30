@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+
+#retangulo{                 /*estilizando o centro*/
+margin-top: 60px;    
+display: flex;
+background-color: yellow;
+border-radius: 50px;
+justify-content: center;
+align-items: center; 
+height: 500px ;
+width: 50%;
+}
+
+#circulo{              /*estilizando o circulo*/             
+background-color: blue;
+width: 250px;
+height: 250px;
+border-radius: 50%;
+display: flex;    
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 20px;
+}
+                    /*estilizando o texto*/
+span{ 
+    color:  yellow;
+    justify-content: center;
+    margin-left: 35px;
+  }
+                   /*estilizando o input*/
+input{
+    border-radius: 10px;
+    background-color:  yellow;
+}
+
+
